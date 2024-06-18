@@ -25,10 +25,18 @@ file main, dan GUI.
 Silahkan ikuti petunjuk berikut
 ```bash
 - Install seluruh folder yang terdapat pada repository github ini
+- Disarankan tidak mengubah letak isi folder (biarkan file data external dan program terpisah folder)
 - Pastikan sebelum run GUI (gui.py), tes terlebih dahulu kode main.c, func.c, dan func.h
 - Pastikan cek terlebih dahulu directory untuk run code di folder 'src'
   (cd ".../..../src")
 - Silahkan run code :)
+
+Alternatif lain:
+- Buka terminal
+- Cari path file gui.py (pastikan gui.py sefolder dengan main.c, func.c, func.h pada folder 'src' dan folder 'src' berada di path yang sama dengan folder 'data')
+- buka path tersebut (cd ".../..../src")
+- run gui.py pada terminal dengan mengetik ("python gui.py") *tanpa tanda petik
+
 
 Jika terdapat kesulitan saat mendownload file, silahkan salin dan buka link dibawah:
 https://drive.google.com/drive/folders/1vciWozrGxwmVp5s7P0_AXtkusiyGyYKB
