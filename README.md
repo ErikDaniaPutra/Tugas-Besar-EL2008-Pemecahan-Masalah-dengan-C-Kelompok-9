@@ -14,5 +14,6 @@
 ##### Deskripsi Singkat
 ```bash
 Aplikasi Program Klinik X dengan sejumlah fitur yang sesuai dengan spesifikasi yang telah ditentukan.
-Folder program yang dibuat terdiri dari folder 'data' yang berisikan file-file external yang digunakan dan folder 'src' yang berisikan source code fungsi-fungsi (fitur), file header, file main, dan GUI.
+Folder program yang dibuat terdiri dari folder 'data' yang berisikan file-file external yang digunakan dan folder 'src'
+yang berisikan source code fungsi-fungsi (fitur), file header, file main, dan GUI.
 ```
