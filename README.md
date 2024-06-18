@@ -30,6 +30,6 @@ Silahkan ikuti petunjuk berikut
   (cd ".../..../src")
 - Silahkan run code :)
 
-Jika terdapat kesulitan saat mendownload file, silahkan klik link dibawah:
+Jika terdapat kesulitan saat mendownload file, silahkan salin dan buka link dibawah:
 https://drive.google.com/drive/folders/1vciWozrGxwmVp5s7P0_AXtkusiyGyYKB
 ```
