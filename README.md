@@ -21,3 +21,12 @@ Folder program yang dibuat terdiri dari folder 'data' yang berisikan file-file e
 digunakan dan folder 'src' yang berisikan source code fungsi-fungsi (fitur), file header,
 file main, dan GUI.
 ```
+##### Cara Compile
+Silahkan ikuti petunjuk berikut
+```bash
+- Install seluruh folder yang terdapat pada repository github ini
+- Pastikan sebelum run GUI (gui.py), tes terlebih dahulu kode main.c, func.c, dan func.h
+- Pastikan cek terlebih dahulu directory untuk run code di folder 'src'
+  (cd ".../..../src")
+- Silahkan run code :)
+```
