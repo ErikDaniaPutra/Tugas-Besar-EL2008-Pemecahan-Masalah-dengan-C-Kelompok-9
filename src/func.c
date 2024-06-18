@@ -23,6 +23,7 @@ int total_patients = 0;
 int total_records = 0;
 
 // Fungsi parsing CSV
+// Pembuat kode: Erik Dania Putra
 void parseCSV(){
     // Deklarasi variabel yang dibutuhkan
     char buffer[512];
@@ -102,7 +103,8 @@ void parseCSV(){
     fclose(file2);
 }
 
-/*Fitur nomor 1*/
+/*Fitur pendukung fitur 1*/
+// Pembuat kode: Erik Dania Putra
 void writePatient() {
     FILE *file1 = fopen("../data/data_pasien.csv", "w");
     if (file1 == NULL) {
@@ -118,6 +120,8 @@ void writePatient() {
     fclose(file1);
 }
 
+/*Fitur nomor 1*/
+// Pembuat kode: Aldeo Malta Junior
 void addDataPasien(DataPasien patient_data[], int *count) {
     if (*count < MAX_Data) {
         DataPasien new_data;
@@ -262,7 +266,8 @@ void findDataPasien(DataPasien patient_data[], int count) {
 }
 
 
-/*Fitur nomor 2*/
+/*Fitur pendukung fitur 2*/
+// Pembuat kode: Laura Angelina Shaad
 // Fungsi menambahkan data pada daftar riwayat pasien (add, update, delete)
 void writeRecords() {
     FILE *file2 = fopen("../data/riwayat_pasien.csv", "w");
@@ -278,6 +283,7 @@ void writeRecords() {
     }
     fclose(file2);
 }
+
 
 // Fungsi untuk menampilkan daftar diagnosis dan mendapatkan pilihan dari user
 void getDiagnosis(char *diagnosis) {
@@ -352,6 +358,8 @@ int getTindakan(char *tindakan) {
     return biaya_tindakan;
 }
 
+/*Fitur nomor 2*/
+// Pembuat kode: Laura Angelina Shaad
 // Fungsi add riwayat pasien
 void addRiwayatPasien() {
     printf("Masukkan detail riwayat pasien:\n");
@@ -500,7 +508,8 @@ void searchRiwayatPasien() {
 }
 
 
-/*Fitur nomor 3*/
+/*Fitur pendukung fitur 3 dan 6*/
+// Pembuat kode: Rafid Ahmad Rabbani
 // mencari pasien berdasarkan ID Pasien
 DataPasien* cari_ID(const char* id) {
     for (int i = 0; i < total_patients; i++) {
@@ -511,6 +520,8 @@ DataPasien* cari_ID(const char* id) {
     return NULL;
 }
 
+/*Fitur 3*/
+// Pembuat kode: Rafid Ahmad Rabbani
 // informasi pasien dan riwayatnya
 void informasiRiwayatPatient(const char* id) {
     DataPasien* patient = cari_ID(id);
@@ -549,7 +560,8 @@ void informasiRiwayatPatient(const char* id) {
 }
 
 
-/*Fitur nomor 4*/
+/*Fitur pendukung fitur 4*/
+// Pembuat Kode: Farrel Iskandar Leghari 
 int convertDate(const char *input, char *output) {
     int tahun, bulan, hari;
     char bulan_str[20];
@@ -584,6 +596,8 @@ int convertDate(const char *input, char *output) {
     return 0;
 }
 
+// Fitur 4
+// Pembuat Kode: Farrel Iskandar Leghari 
 void laporanPendapatan(RiwayatPasien riwayat[], int count) {
     int pendapatan_bulanan[MAX_YEARS][12] = {0};
     int tahun_terkecil = 9999, tahun_terbesar = 0;
@@ -636,7 +650,8 @@ void laporanPendapatan(RiwayatPasien riwayat[], int count) {
     }
 }
 
-/*Fitur nomor 5*/
+/*Fitur pendukung fitur 5*/
+// Pembuat Kode: Farrel Iskandar Leghari 
 // Fungsi untuk mengonversi tanggal ke format "yyyy-mm"
 int convertTanggal(const char *input, char *output) {
     int tahun, bulan, hari;
@@ -687,6 +702,9 @@ int convertTanggal(const char *input, char *output) {
     return 0;
 }
 
+
+// Fitur 5
+// Pembuat Kode: Farrel Iskandar Leghari 
 // Fungsi untuk menghasilkan laporan jumlah pasien berdasarkan diagnosis
 void laporanJumlahPasien(RiwayatPasien riwayat[], int count) {
     int jumlah_pasien_bulanan[MAX_YEARS][12][4] = {0}; // Maksimum 4 diagnosis
@@ -744,6 +762,7 @@ void laporanJumlahPasien(RiwayatPasien riwayat[], int count) {
 }
 
 /*Fitur nomor 6*/
+// Pembuat Kode: Rafid Ahmad Rabbani
 // pasien yang perlu kembali kontrol
 void kontrolPatient() {
     printf("\nPasien yang Perlu Kembali Kontrol:\n");
