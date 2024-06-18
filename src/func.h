@@ -9,10 +9,12 @@
 #ifndef __FUNC_H__
 #define __FUNC_H__
 
+// Macro yang digunakan
 #define MAX_Char 100
 #define MAX_Data 500
 #define MAX_DIAGNOSIS 50
 
+// Struct yang digunakan
 typedef struct{
     int number;
     char namaPasien[MAX_Char];
