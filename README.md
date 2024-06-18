@@ -29,4 +29,7 @@ Silahkan ikuti petunjuk berikut
 - Pastikan cek terlebih dahulu directory untuk run code di folder 'src'
   (cd ".../..../src")
 - Silahkan run code :)
+
+Jika terdapat kesulitan saat mendownload file, silahkan klik link dibawah:
+https://drive.google.com/drive/folders/1vciWozrGxwmVp5s7P0_AXtkusiyGyYKB
 ```
