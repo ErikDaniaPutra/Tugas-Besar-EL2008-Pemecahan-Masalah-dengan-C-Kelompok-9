@@ -3,12 +3,14 @@
  * Kelompok  : 9
  * Kelas     : 01
  * File      : main.c
- * Deskripsi : 
+ * Deskripsi : Program utama dari Aplikasi Klinik X yang telah diintegrasikan dengan func.c dan func.h
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include "func.c"
+
+// Pembuat kode: Erik Dania Putra
 
 int main(){
     // Parsing file CSV dan memasukkan pada Struct
