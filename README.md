@@ -29,7 +29,7 @@ Silahkan ikuti petunjuk berikut
 - Pastikan sebelum run GUI (gui.py), tes terlebih dahulu kode main.c, func.c, dan func.h
 - Pastikan cek terlebih dahulu directory untuk run code di folder 'src'
   (cd ".../..../src")
-- Silahkan run code ::slightly_smiling_face::
+- Silahkan run code `:slightly_smiling_face:`
 
 Alternatif lain:
 - Buka terminal
